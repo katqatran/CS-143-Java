@@ -1,7 +1,8 @@
 /* Katherine Tran
  *
- * This program will utilize MagicEightBall and Ball to create magic eight balls to compare their sizes and simulate the 
- * responses of a magic eight ball.
+ * This program creates instances of the Ball and MagicEightBall classes to simulate the responses of a magic eight ball.
+ * It creates and compares Ball objects, sorts an array of Ball objects, creates a MagicEightBall object with custom 
+ * messages, and simulates shaking the Magic Eight Ball to get a response.
  */
 
 import java.awt.*;
