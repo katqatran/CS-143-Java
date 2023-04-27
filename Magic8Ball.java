@@ -34,8 +34,10 @@ public class Driver {
         String[] msgs = {"yes", "no", "maybe",
                 "definitely not", "without a doubt", "most likely",
                 "signs point to yes", "outlook bad"};
+        
         MagicEightBall ball8 = new MagicEightBall(Color.darkGray,
                 12, msgs);
+        
         for (int i = 1; i <= 5; i++) {
             System.out.println("You shake the magic eight ball");
             System.out.println("The ball says: " + ball8.shake());
