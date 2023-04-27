@@ -1,8 +1,5 @@
 import java.awt.*;
 
-/**
- * A class representing a ball.
- */
 public class Ball implements Comparable<Ball> {
     
     /**
