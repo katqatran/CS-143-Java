@@ -59,7 +59,6 @@ public class ContactClient {
      */
     public static void main(String[] args) {
         ContactClient contacts = new ContactClient();
-
         contacts.displayOption(new Scanner(System.in));
     }
 
