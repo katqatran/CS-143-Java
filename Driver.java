@@ -1,4 +1,5 @@
-/* Katherine Tran
+/** 
+ * Katherine Tran
  *
  * This program creates instances of the Ball and MagicEightBall classes to simulate the responses of a magic eight ball.
  * It creates and compares Ball objects, sorts an array of Ball objects, creates a MagicEightBall object with custom 
