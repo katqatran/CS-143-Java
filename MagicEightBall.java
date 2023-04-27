@@ -1,12 +1,15 @@
+/**
+* Katherine Tran
+* 
+* This program class extends the Ball class to simulate a magic eight ball. It contains an array of custom messages
+* and methods to access and retrieve these messages. It also has a shake method that randomly selects and returns one of
+* the messages.
+*/
+
 import java.awt.*;
 import java.util.Arrays;
 import java.util.Random;
 
-/**
-* The MagicEightBall class extends the Ball class to simulate a magic eight ball. It contains an array of custom messages
-* and methods to access and retrieve these messages. It also has a shake method that randomly selects and returns one of
-* the messages.
-*/
 public class MagicEightBall extends Ball{
     
    private String[] messages;
@@ -18,7 +21,6 @@ public class MagicEightBall extends Ball{
     * @param messages the custom messages for the magic eight ball
     */
    public MagicEightBall(Color color, int size, String[] messages) {
-
         super(color, size);
         this.messages = messages;
     }
