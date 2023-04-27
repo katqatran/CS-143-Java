@@ -13,7 +13,7 @@ public class InventoryLog implements Inventory {
 
     /**
      * Constructs a new InventoryLog object with an empty ArrayList.
-    n*/
+     */
     public InventoryLog() {
         characterList = new ArrayList<Character>();
     }
@@ -58,7 +58,6 @@ public class InventoryLog implements Inventory {
         }
         return count;
     }
-
 
     /**
      * Returns true if the inventory contains the specified character, false otherwise.
@@ -118,6 +117,7 @@ public class InventoryLog implements Inventory {
             }
         }
     }
+  
   /**
     * Returns a string representation of the InventoryLog object.
     * The string representation is the same as the string representation of the characterList ArrayList.
