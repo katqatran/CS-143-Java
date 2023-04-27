@@ -101,6 +101,7 @@ public class ContactClient {
 }
 
 /*
+
 Welcome to my contacts list!
 1.  Display all contacts.
 2.  Display favorites.
@@ -136,5 +137,4 @@ Enter your numerical choice:3
 
 Goodbye
 
-Process finished with exit code 0
 */
