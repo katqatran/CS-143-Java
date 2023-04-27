@@ -3,6 +3,7 @@
  * contact is a favorite. Each contact is assigned a unique identifier number that is generated automatically.
  */
 public class Contact {
+    
     private String firstName;
     private String lastName;
     private String email;
