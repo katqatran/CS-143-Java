@@ -36,7 +36,7 @@ public class Ball implements Comparable<Ball> {
     /**
      * Returns the size of the ball.
      * @return the size of the ball, in inches
-    */
+     */
     public int getSize() {
         return size;
     }
