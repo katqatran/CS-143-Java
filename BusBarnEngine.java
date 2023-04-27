@@ -4,6 +4,7 @@
 * This program generates and stores a random number of Bus objects with route numbers between 100 and 130. 
 * It reads from a text file with route numbers and their descriptions and adds them to a Map. The program prints the
 * list of Bus objects in the Set to the console and their corresponding routes with their descriptions, if available.
+* To evaluate the functionality of this program, use the file named 'Bus.java' and 'routes.txt' as a test case.
 */
 import java.util.*;
 import java.io.*;
