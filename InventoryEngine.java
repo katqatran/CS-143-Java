@@ -1,7 +1,7 @@
 /**
  * Katherine Tran
  *
- * This class creates and populates Inventory objects with data file contents
+ * This program creates and populates Inventory objects with data file contents
  */
 package drivers;
 
