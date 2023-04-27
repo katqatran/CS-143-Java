@@ -17,18 +17,14 @@ import java.io.*;
 
 public class LetterInventory implements Inventory {
   
-   private int[] letters; // letters is null here
+   private int[] letters;
 
    public static final int ALPHABET_SIZE = 26;
 
-
-   // default constructor - need to provide this constructor
-   // so memory is constructed for array (so it is no longer null)
    public LetterInventory() {
-      //TODO fix the style issue below
+
       letters = new int[ALPHABET_SIZE];
    }
-
 
    /**
     * Returns a String representation of the inventory with the letters all in lowercase
@@ -38,13 +34,10 @@ public class LetterInventory implements Inventory {
     * @return a bracketed string representation of the letters contained in the inventory
     */
    public String toString() {
-      // If you are concatenating many strings together, StringBuilder class
-      // is often more efficient(faster)
+     
       StringBuilder toReturn = new StringBuilder("[");
 
-      // for every count in the letters inventory
       for(int i = 0; i < letters.length; i++) {
-         // add each character to the string count times
          for(int count = 0; count < letters[i]; count++) {
             // ascii math performed here
             // Example:
@@ -58,6 +51,10 @@ public class LetterInventory implements Inventory {
       return toReturn.append("]").toString();
    }
 
+  /**
+   * Adds one count to the inventory for the given letter, ignoring case.
+   * @param c the letter to add to the inventory
+   */
    @Override
    public void add(char c) {
       c = Character.toLowerCase(c);
@@ -67,6 +64,10 @@ public class LetterInventory implements Inventory {
       }
    }
 
+  /**
+   * Subtracts one count from the inventory for the given letter, ignoring case.
+   * @param c the letter to subtract from the inventory
+   */
    @Override
    public void subtract(char c) {
       c = Character.toLowerCase(c);
@@ -76,6 +77,11 @@ public class LetterInventory implements Inventory {
       }
    }
 
+  /**
+   * Returns the count of the given letter in the inventory, ignoring case.
+   * @param c the letter to query the count for
+   * @return the count of the letter in the inventory
+   */
    @Override
    public int get(char c) {
       c = Character.toLowerCase(c);
@@ -86,6 +92,11 @@ public class LetterInventory implements Inventory {
       return 0;
    }
 
+  /**
+   * Returns the count of the given letter in the inventory, ignoring case.
+   * @param c the letter to query the count for
+   * @return the count of the letter in the inventory
+   */
    @Override
    public void set(char c, int count) {
       c = Character.toLowerCase(c);
@@ -97,16 +108,24 @@ public class LetterInventory implements Inventory {
       if (count < 0) {
          throw new IllegalArgumentException();
       }
-
+     
       letters[c - 'a'] = count;
-
    }
 
+   /**
+    * Returns whether this inventory contains the given letter.
+    * @param c the letter to search for
+    * @return true if the letter is present in the inventory, false otherwise
+    */
    @Override
    public boolean contains(char c) {
       return get(c) > 0;
    }
 
+   /**
+    * Returns the total count of all letters in this inventory.
+    * @return the total count of letters
+    */
    @Override
    public int size() {
       int size = 0;
@@ -116,6 +135,10 @@ public class LetterInventory implements Inventory {
       return size;
    }
 
+   /**
+    * Returns whether this inventory is empty (i.e., has a size of zero).
+    * @return true if this inventory is empty, false otherwise
+    */
    @Override
    public boolean isEmpty() {
       return size() == 0;
