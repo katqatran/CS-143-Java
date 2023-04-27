@@ -1,7 +1,10 @@
 /**
- * The Contact class represents a contact with a first name, last name, email address, and a flag indicating whether the
+ * Katherine Tran
+ *
+ * This program represents a contact with a first name, last name, email address, and a flag indicating whether the
  * contact is a favorite. Each contact is assigned a unique identifier number that is generated automatically.
  */
+
 public class Contact {
     
     private String firstName;
