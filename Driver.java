@@ -10,12 +10,6 @@ import java.util.Arrays;
 
 public class Driver {
     
-    /**
-     * The main method creates two Ball objects with different colors and sizes, compares their sizes using the compareTo
-     * method, sorts an array of Ball objects using the Arrays class, creates a MagicEightBall object with custom messages, 
-     * and simulates shaking the Magic Eight Ball to get a response.
-     * @param args
-     */
     public static void main(String[] args) {
         
         Ball ball = new Ball(Color.GRAY, 8);
