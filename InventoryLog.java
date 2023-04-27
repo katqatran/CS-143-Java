@@ -1,3 +1,11 @@
+/** 
+ * Katherine Tran
+ *
+ * This program implements the Inventory interface and represents an inventory of characters stored in an ArrayList. It
+ * allows for adding and subtracting characters, getting the count of a specific character, checking if a character is
+ * contained in the inventory, getting the size of the inventory, and setting the count of a character to a specific
+ * value. It also provides a method for returning a string representation of the inventory.
+ */
 package inventory;
 
 import java.util.*;
