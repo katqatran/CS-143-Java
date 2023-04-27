@@ -1,7 +1,7 @@
 /**
  * Katherine Tran
  *
- * This class represents an inventory of the 26 letters in the English alphabet.
+ * This program represents an inventory of the 26 letters in the English alphabet.
  * A LetterInventory object keeps track of how many a’s, how many b’s, etc.
  * are contained in a given string.
  * For example:
