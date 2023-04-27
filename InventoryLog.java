@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class InventoryLog implements Inventory {
   
-   /**
+    /**
      * The ArrayList containing the characters in the inventory.
      */
     private ArrayList<Character> characterList;
