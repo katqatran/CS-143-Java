@@ -1,3 +1,8 @@
+/**
+ * Katherine Tran
+ *
+ * This program represents a ball. This class implements the Comparable interface with a type parameter of Ball. 
+ */
 import java.awt.*;
 
 public class Ball implements Comparable<Ball> {
