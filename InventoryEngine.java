@@ -1,12 +1,14 @@
+/**
+ * Katherine Tran
+ *
+ * This class creates and populates Inventory objects with data file contents
+ */
 package drivers;
 
 import java.util.*;
 import java.io.*;
 import inventory.*;
 
-/**
- * This class is used to test the InventoryLog class by calling its methods and printing expected output
- */
 public class InventoryEngine {
 
    public static void main(String[] args) {
