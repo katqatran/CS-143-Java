@@ -43,6 +43,7 @@ public class Driver {
 }
 
 /*
+
 You shake the magic eight ball
 The ball says: without a doubt
 
@@ -60,4 +61,5 @@ The ball says: signs point to yes
 
 MagicEightBall Messages: [yes, no, maybe, definitely not, without a doubt, most likely, signs point to yes, outlook bad]
 Ball Color: [red = 64, green = 64, blue = 64] Ball size: 12 inches.
+
 */
